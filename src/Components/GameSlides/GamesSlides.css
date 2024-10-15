@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope&display=swap');
+
+.name
+{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+  background: -webkit-linear-gradient(#403b4a, #e7e9bb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.single-slide
+{
+  background-color: black;
+    height: 70vh;
+    position: relative;
+}
+
+.shade {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+.single-slide>p
+{
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    
+}
+
+@media only screen and (max-width: 950px) {
+  .single-slide{
+    width: 100%;
+    height: 35vh;
+  }
+
+  .slide-img
+  {
+    
+    width: 100%;
+  
+  }
+  .Carousel
+  {
+    height: 35vh;
+  }
+
+  .shade {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .single-slide>p
+{
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: absolute;
+    font-size: 2rem;
+    top: 80%;
+    left: 50%;   
+}
+}

@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.GameDetail-Container
+{
+    display: flex;
+    justify-content: center;
+    font-family: Manrope,sans-serif;
+    font-size: 1rem;
+}
+
+.Platforms
+{
+
+}
+
+.GameDetail
+{
+    margin-top: 5rem;
+    height: 50vh;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.GameHeader
+{
+
+
+}
+
+.specs
+{
+    
+    margin-left: 2rem;
+    margin-top: rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 0.1rem solid transparent ;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 65vh;
+    width: 100vh;
+}
+
+.specs-column1
+{
+    margin: 1.5rem 5rem;
+    margin-left: 2rem;
+    
+}
+
+.specs-column2
+{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+}
+
+.genres
+{
+    flex: 3;
+}
+
+.ReleaseDate
+{
+    flex: 5;
+}
+
+.Rating
+{
+    flex: 4;
+}
+
+.specs-column3
+{
+   
+    display: flex;
+    flex-direction: row;  
+    margin: 2rem 5rem;
+    margin-left: 2rem;
+}
+
+.Blank-div
+{
+    flex: 1;
+}
+
+.Platforms
+{
+    flex: 3;
+    
+}
+
+.available
+{
+    flex: 3;
+    
+}
+
+.available
+{
+    width: 25vh;
+}
+
+.ReleaseDate
+{
+    width: 25vh;
+}
+
+.screenshot-container
+{
+
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.screenshots
+{
+    width: 80%;
+}
+
+.screenshot_div
+{
+    
+    width: 15rem;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem;
+    border-bottom: .1rem solid orangered;
+    
+}
+
+.game-img
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    width: 112vh;
+    max-height: 63vh;
+    min-height: 63vh;
+    border: transparent;
+    object-fit: scale-down;
+    background-color: black;
+}
+
+.screenshot-pics
+{
+     
+    background-image: url('../../assets/images/screen3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.ss-sub-div
+{
+    width: 72.8%;
+    margin-top: 3.3rem;
+}
+
+
+.downloadButton
+{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.game-page-carousel
+{
+    height: 81vh;
+    background-color:black;
+    overflow: hidden;
+}
+
+.game-shade
+{
+    width: 52.75%;
+    border-radius: 1rem;
+    height: 63%;
+    background: rgba(0,0,0,.7);
+    position: absolute;
+    top: 20;
+    left: 20;
+    display: none;
+}
+
+.game-shade:hover
+{
+    background: rgba(0,0,0,.8);
+}
+
+.Play-icon
+{
+    top: 46%;
+    left: 27%;
+    position: absolute;
+    height: 20vh;
+}
+
+.Play-icon img
+{
+    height: 12vh;
+
+
+}
+
+.Play-icon img:hover
+{
+    padding: .2rem 0.2rem;
+    transition: ease-out;
+
+}
+
+
+@media only screen and (max-width:950px) {
+
+    .GameDetail
+    {
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 120vh;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .specs
+    {
+        font-size: .8rem;
+        margin-left: 0rem;
+        height: 80vh;
+        width: 50vh;
+    }
+
+    .specs-column1
+    {
+        margin-left: 0.5rem;
+    }
+    .specs-column2
+    {
+        margin-left: 0.5rem;
+    }
+    .specs-column3
+    {
+        margin-left: 0.5rem;
+    }
+
+    .game-img
+    {
+        width: 100%;
+        object-fit: scale-down;
+        border-radius: 0rem;
+        background-color: black;
+    }
+
+.game-shade
+{
+    display: none;
+
+}
+
+.Play-icon img
+{
+    height: 8vh;
+}
+
+.Play-icon
+{
+    top: 24%;
+    left: 35%;
+    position: absolute;
+    height: 15vh;
+}
+
+.specs-container
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ss-sub-div
+{
+    width: 72.8%;
+    margin-top: 0.8rem;
+}
+
+.game-page-carousel
+{
+    overflow: hidden;
+    height: 21vh;
+}
+
+
+    
+}
